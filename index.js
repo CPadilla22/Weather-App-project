@@ -15,3 +15,5 @@ function search(event) {
 
   axios.get(apiUrl).then(displayTemperature);
 }
+Let form = document.querySelector("#search-form");
+form.addEventListener("submit",search);
